@@ -6,7 +6,7 @@ use bevy_ecs::{
 use bevy_transform::{prelude::GlobalTransform, TransformSystem};
 use superconductor::components::Instance;
 
-struct SuperconductorTransformPlugin;
+pub struct SuperconductorTransformPlugin;
 
 impl Plugin for SuperconductorTransformPlugin {
     fn build(&self, app: &mut bevy_app::App) {
